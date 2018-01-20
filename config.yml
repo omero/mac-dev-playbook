@@ -62,6 +62,8 @@ homebrew_cask_apps:
   - the-unarchiver
   - appcleaner
   - robo-3t 
+  - iterm2
+  - grammarly
 
 # composer_packages:
 #   - name: hirak/prestissimo
