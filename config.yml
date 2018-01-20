@@ -1,0 +1,79 @@
+---
+configure_dotfiles: yes
+configure_sudoers: no
+configure_terminal: no
+configure_osx: yes
+
+homebrew_installed_packages:
+  - autoconf
+  - chromedriver
+  - doxygen
+  - gettext
+  - gifsicle
+  - git
+  - go
+  - gpg
+  - hub
+  - httpie
+  - iperf
+  - libevent
+  - sqlite
+  - mcrypt
+  - nmap
+  - node
+  - nvm
+  - ssh-copy-id
+  - readline
+  - openssl
+  - pv
+  - wget
+  - wrk
+  - fish
+  - tree
+  - mysql
+  - php70
+  - php70-opcache
+  - php70-apcu
+  - composer
+  - yarn
+  - tmux
+
+homebrew_taps:
+  - homebrew/core
+  - caskroom/cask
+  - homebrew/php
+  - homebrew/versions
+  - caskroom/fonts
+
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+  - font-meslo-nerd-font
+  - font-firacode-nerd-font-mono
+  - docker
+  - firefox
+  - google-chrome
+  - visual-studio-code
+  - sequel-pro
+  - droplr
+  - rambox
+  - cyberduck
+  - spotify
+  - vlc
+  - the-unarchiver
+  - appcleaner
+  - robo-3t 
+
+# composer_packages:
+#   - name: hirak/prestissimo
+#   - name: drush/drush
+#     version: '^8.1'
+
+# gem_packages:
+#   - name: bundler
+#     state: latest
+
+# npm_packages:
+#   - name: webpack
+
+# pip_packages:
+#   - name: mkdocs
