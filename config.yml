@@ -37,6 +37,10 @@ homebrew_installed_packages:
   - composer
   - yarn
   - tmux
+  - thefuck
+  - shpotify
+  - chunkwm
+  - koekeishiya/formulae/skhd
 
 homebrew_taps:
   - homebrew/core
@@ -44,11 +48,14 @@ homebrew_taps:
   - homebrew/php
   - homebrew/versions
   - caskroom/fonts
+  - crisidev/homebrew-chunkwm
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - font-meslo-nerd-font
   - font-firacode-nerd-font-mono
+  - font-fontawesome
+  - font-hack
   - docker
   - firefox
   - google-chrome
@@ -61,7 +68,7 @@ homebrew_cask_apps:
   - vlc
   - the-unarchiver
   - appcleaner
-  - robo-3t 
+  - robo-3t
   - iterm2
   - grammarly
 
