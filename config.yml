@@ -41,6 +41,7 @@ homebrew_installed_packages:
   - shpotify
   - chunkwm
   - koekeishiya/formulae/skhd
+  - ahoy
 
 homebrew_taps:
   - homebrew/core
