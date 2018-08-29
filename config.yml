@@ -72,6 +72,14 @@ homebrew_cask_apps:
   - robo-3t
   - iterm2
   - grammarly
+  - minikube
+  - rambox
+  - virtualbox
+  - rocket
+  - robo-3t
+  - ngrok
+  - fillezilla
+  - droplr
 
 # composer_packages:
 #   - name: hirak/prestissimo
