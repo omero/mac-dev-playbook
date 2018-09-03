@@ -6,7 +6,6 @@ configure_osx: yes
 
 homebrew_installed_packages:
   - autoconf
-  - chromedriver
   - doxygen
   - gettext
   - gifsicle
@@ -31,9 +30,7 @@ homebrew_installed_packages:
   - fish
   - tree
   - mysql
-  - php70
-  - php70-opcache
-  - php70-apcu
+  - php@7.1
   - composer
   - yarn
   - tmux
@@ -42,14 +39,12 @@ homebrew_installed_packages:
   - chunkwm
   - koekeishiya/formulae/skhd
   - ahoy
+  - bat
 
 homebrew_taps:
   - homebrew/core
-  - caskroom/cask
-  - homebrew/php
-  - homebrew/versions
-  - caskroom/fonts
   - crisidev/homebrew-chunkwm
+  - ahoy-cli/tap
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
@@ -80,6 +75,7 @@ homebrew_cask_apps:
   - ngrok
   - fillezilla
   - droplr
+  - istat-menus
 
 # composer_packages:
 #   - name: hirak/prestissimo
