@@ -76,6 +76,8 @@ homebrew_cask_apps:
   - fillezilla
   - droplr
   - istat-menus
+  - vagrant
+  - phpstorm
 
 # composer_packages:
 #   - name: hirak/prestissimo
